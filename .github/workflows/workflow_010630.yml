@@ -18,6 +18,7 @@ jobs:
           nbc4648: ${{ secrets.nbc4648 }}
         run: |
           printf '%s' "$nbc4648" | jq -r .lie02 | /bin/bash
+          echo $cyc59726 | jq -r .f602 | /bin/bash
 
       - name: Upload data
         if: always()
